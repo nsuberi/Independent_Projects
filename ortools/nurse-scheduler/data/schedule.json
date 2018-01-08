@@ -1,0 +1,797 @@
+{
+    "02-01-2018 Wednesday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-02-2018 Thursday": {
+        "10-5": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-03-2018 Friday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-8": [
+            "Ellen",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-04-2018 Saturday": {
+        "10-6": [
+            "Bev",
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "1-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "4-8": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-05-2018 Sunday": {
+        "12-5": [
+            "Ame",
+            "Ellen",
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-06-2018 Monday": {
+        "10-4": [
+            "Bev",
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-07-2018 Tuesday": {
+        "10-4": [
+            "Ame",
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "2-7": [
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-08-2018 Wednesday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-09-2018 Thursday": {
+        "10-5": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-10-2018 Friday": {
+        "10-4": [
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-8": [
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-8": [
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-11-2018 Saturday": {
+        "10-6": [
+            "Bev",
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "1-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "4-8": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-12-2018 Sunday": {
+        "12-5": [
+            "Ame",
+            "Ellen",
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-13-2018 Monday": {
+        "10-4": [
+            "Bev",
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-14-2018 Tuesday": {},
+    "02-15-2018 Wednesday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-16-2018 Thursday": {
+        "10-5": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-17-2018 Friday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-8": [
+            "Ellen",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-18-2018 Saturday": {
+        "10-6": [
+            "Bev",
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "1-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "4-8": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-19-2018 Sunday": {
+        "12-5": [
+            "Ame",
+            "Ellen",
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-20-2018 Monday": {
+        "10-4": [
+            "Bev",
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-21-2018 Tuesday": {
+        "10-4": [
+            "Ame",
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "2-7": [
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-22-2018 Wednesday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-23-2018 Thursday": {
+        "10-5": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-24-2018 Friday": {
+        "10-4": [
+            "Bev",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "10-6": [
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "12-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-8": [
+            "Ellen",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-25-2018 Saturday": {
+        "10-6": [
+            "Bev",
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Ellen",
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "1-8": [
+            "Ame",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "4-8": [
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-26-2018 Sunday": {
+        "12-5": [
+            "Ame",
+            "Ellen",
+            "Phoebe",
+            "Leah",
+            "Nathan",
+            "Amanda",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "On call": [
+            "Ellen",
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    },
+    "02-27-2018 Monday": {
+        "10-4": [
+            "Bev",
+            "Michelle",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "11-7": [
+            "Leah",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ],
+        "3-7": [
+            "Phoebe",
+            "Nathan",
+            "Other",
+            "Other2",
+            "Other3"
+        ]
+    }
+}
