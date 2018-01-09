@@ -3,9 +3,7 @@ import sys
 import os
 from math import ceil
 
-import ogr
-import fiona
-import pandas as pd
+from osgeo import ogr
 import geopandas as gpd
 
 ### Constants
@@ -17,9 +15,9 @@ SHAPEFILE_LOC = 'data/big_leaf_maple_range_map_&_shapefiles/acermacr.shp'
 ## Accessing remote data
 ###
 
-def createAndTestGrid(limits, resolution, intersect_with_shapefile):
+def createAndTestGrid(limits, resolution, shapefile):
 
-    outfile = 'attempt_at_grid_{}'.format(str(resolution))
+    outfile = 'data/attempt_at_grid_{}.shp'.format(str(resolution))
 
     ### ogr code to make a grid
     xmin,xmax,ymin,ymax = limits
@@ -92,31 +90,62 @@ def createAndTestGrid(limits, resolution, intersect_with_shapefile):
 
     ### intersect with shapefiles
     # Read in newly created grid
+    new_grid = gpd.GeoDataFrame.from_file(outfile)
+    new_grid.crs = {'init' :'epsg:4326'}
+    logging.info('New grid shape: {}'.format(new_grid.shape))
+    logging.info('New grid head: {}'.format(new_grid.head()))
 
-    #
+    # Intersect
+    intersection = gpd.sjoin(new_grid, shapefile, how='inner',op='intersects')
+    logging.info('Intersection head: {}'.format(intersection.shape))
+    logging.info('Intersection head: {}'.format(intersection.tail()))
 
-    return grid, num_intersections
+    unique_intersection = intersection['FID'].unique()
+    unique_intersection = new_grid.loc[unique_intersection]
+
+    logging.info('Unique Intersection shape: {}'.format(unique_intersection.shape))
+    logging.info('Unique Intersection head: {}'.format(unique_intersection.head()))
+
+    removeExcess(outfile)
+    unique_intersection.to_file(driver = 'ESRI Shapefile', filename=outfile)
+
+    return outfile, unique_intersection.shape[0]
 
 ###
 ## Application code
 ###
 
+def removeExcess(outfile):
+    base = os.path.splitext(outfile)[0]
+    os.remove(base+'.dbf')
+    os.remove(base+'.shx')
+    os.remove(base+'.shp')
+    try:
+        os.remove(base+'.cpg')
+        os.remove(base+'.prj')
+    except:
+        logging.debug('No .cpg or .prj files to delete')
+
 def main():
     logging.basicConfig(stream=sys.stderr, level=LOG_LEVEL)
 
     ### 1. Load shapefile
-    big_maple_rangemap = gdp.GeoDataFrame.from_file(SHAPEFILE_LOC)
+    big_maple_rangemap = gpd.GeoDataFrame.from_file(SHAPEFILE_LOC)
+    big_maple_rangemap.crs = {'init' :'epsg:4326'}
+    logging.info('Shape of data: {}'.format(big_maple_rangemap.shape))
     logging.info('Head of data: {}'.format(big_maple_rangemap.head()))
     logging.info('CRS: {}'.format(big_maple_rangemap.crs))
 
     ### 2. Find bounding box, use to loop over
     # https://gis.stackexchange.com/questions/266730/filter-by-bounding-box-in-geopandas
-    limits = big_maple_rangemap.envelope
+    limits = big_maple_rangemap.total_bounds
     logging.info('Bounding box of shapefile: {}'.format(limits))
 
-    resolution = 1 # lat/lon degree
+    resolution = 1.5 # lat/lon degree
     num_intersections = 0
     while num_intersections < 50:
-        grid, num_intersections = createAndTestGrid(limits, resolution, shapefile)
-        if num_intersections < 50
-            os.remove(grid)
+        grid, num_intersections = createAndTestGrid(limits, resolution, big_maple_rangemap)
+        logging.info('Resolution {} had {} intersections'.format(resolution, num_intersections))
+        if num_intersections < 50:
+            removeExcess(grid)
+            resolution -= .1

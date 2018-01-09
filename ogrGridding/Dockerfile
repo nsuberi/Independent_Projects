@@ -1,20 +1,15 @@
-FROM python:3.6
+FROM ecarrara/python-gdal
 MAINTAINER Nathan Suberi <nathan.suberi@wri.org>
 ARG NAME=ogrgridding
 ENV NAME ${NAME}
 
 # install application libraries
-RUN apt-get install -y \
-  gdal-bin \
-  libgdal-dev \
-  libnetcdf-dev \
-  netcdf-bin \
-  cron \
+RUN apt-get update && apt-get install -y \
+  libspatialindex-dev \
   && apt-get clean
 
-# install application libraries
-RUN pip install --upgrade pip && pip install pandas
-RUN pip install -e git+https://github.com/fgassert/cartosql.py.git#egg=cartosql
+# RUN pip install -e git+https://github.com/fgassert/cartosql.py.git#egg=cartosql
+RUN pip install --upgrade pip && pip install geopandas rtree
 
 # Copy the application folder inside the container
 RUN mkdir -p /opt/$NAME/data
