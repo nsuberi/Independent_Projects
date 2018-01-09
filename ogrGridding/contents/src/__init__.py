@@ -111,10 +111,6 @@ def createAndTestGrid(limits, resolution, shapefile):
 
     return outfile, unique_intersection.shape[0]
 
-###
-## Application code
-###
-
 def removeExcess(outfile):
     base = os.path.splitext(outfile)[0]
     os.remove(base+'.dbf')
@@ -125,6 +121,10 @@ def removeExcess(outfile):
         os.remove(base+'.prj')
     except:
         logging.debug('No .cpg or .prj files to delete')
+
+###
+## Application code
+###
 
 def main():
     logging.basicConfig(stream=sys.stderr, level=LOG_LEVEL)
@@ -143,7 +143,7 @@ def main():
 
     resolution = 1.5 # lat/lon degree
     num_intersections = 0
-    while num_intersections < 50:
+    while num_intersections < NUM_INTERSECT:
         grid, num_intersections = createAndTestGrid(limits, resolution, big_maple_rangemap)
         logging.info('Resolution {} had {} intersections'.format(resolution, num_intersections))
         if num_intersections < 50:
