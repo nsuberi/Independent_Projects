@@ -20,7 +20,7 @@ def createAndTestGrid(limits, resolution, shapefile):
     outfile = 'data/attempt_at_grid_{}.shp'.format(str(resolution))
 
     ### ogr code to make a grid
-    xmin,xmax,ymin,ymax = limits
+    xmin,ymin,xmax,ymax = limits
     gridHeight = gridWidth = resolution
 
     # convert sys.argv to float
