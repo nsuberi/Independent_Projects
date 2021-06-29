@@ -1,0 +1,12 @@
+gunicorn>=19.7.1
+plotly>=2.0.9
+dash
+dash-renderer
+dash-html-components
+dash-core-components
+dash-cytoscape
+pandas
+colour
+dash-table
+requests
+xlrd
